@@ -45,11 +45,11 @@ By creating a "project" and working within a "project", it automatically sets th
 - Packages --> Install and load packages, or click on a specific package to learn more about what is included in that package
 
 **Shortcuts**
-Ctrl + Enter --> Run the current line of code
-Ctrl + A + Enter --> Run all lines of code
-Ctrl + Shift + C --> Comment or uncomment lines
+- Ctrl + Enter --> Run the current line of code
+- Ctrl + A + Enter --> Run all lines of code
+- Ctrl + Shift + C --> Comment or uncomment lines
 
 **How to change the appearance of R studio**
-In the top bar, click "Tools". Select "Global Options", then "Appearance" and play around with the RStudio Theme and Editor theme.
+- In the top bar, click "Tools". Select "Global Options", then "Appearance" and play around with the RStudio Theme and Editor theme.
 
 R prefers to read CSV files, not regular excel files. So you will notice today, all the spreadsheets we will be working with are in CSV format.
