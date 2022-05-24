@@ -7,13 +7,9 @@ Unzip the files from your "Downloads" section on your computer, then move the fi
 If you get lost, do not worry -- I will walk through these steps on our first session!
 
 R Studio is broken up into 4 different sections
-  
   Top left (Source): Where you write and edit scripts
-  
   Top right (Environment & History): Where you see objects and variables
-  
   Bottom left (Console): Where you see the results of running a script
-  
   Bottom right (Files, Plots, Packages, Help): Where you see files in the working directory, resulting plots,and packages to load
 
   These sections are adjustable by hovering cursor on the boundaries of each
