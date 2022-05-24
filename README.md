@@ -1,4 +1,4 @@
-**Welcome the nRc co-operative R coding group!**
+**Welcome the nRc R coding group!**
 
 **25-MAY-2022**
 
