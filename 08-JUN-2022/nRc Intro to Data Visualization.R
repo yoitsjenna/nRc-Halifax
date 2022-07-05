@@ -39,29 +39,29 @@ str(data)
 #   arrange(): sort results
 #   count(): count discrete values
 
-select(data, plot_id, species_id, weight)
-filter(data, plot_id < 9)
+dplyr::select(data, plot_id, species_id, weight)
+dplyr::filter(data, plot_id < 9)
 
 # Using pipes, filter the data to select ONLY the data occurring in the year 1995, 
 # weight is less than 30, and include only the columns species_id, sex, and weight. 
 
 data %>% 
-  filter(year == 1995) %>% 
-  filter(weight < 30) %>%
-  select(species_id, sex, weight)
+  dplyr::filter(year == 1995) %>% 
+  dplyr::filter(weight < 30) %>%
+  dplyr::select(species_id, sex, weight)
 
 # mutate() allows you to alter the data set. The weight in the csv file is in grams, and 
 # we want to change it to kg.
 
 data %>%
-  mutate(weight_kg = weight / 1000) 
+  dplyr::mutate(weight_kg = weight / 1000) 
 
 # This created a new column using data already present in your table. This column 
 # will be added as the last column of your table. 
 
 # This will calculate and create 2 columns
 data %>%
-  mutate(weight_kg = weight / 1000, weight_kgx2 = weight*2) 
+  dplyr::mutate(weight_kg = weight / 1000, weight_kgx2 = weight*2) 
 
 #---- Missing Data points in your data set----
 
@@ -76,7 +76,7 @@ data %>%
 # Using the filter() function, you can use omit any rows that contain NA
 
 data %>%
-  filter(!is.na(weight))
+  dplyr::filter(!is.na(weight))
 
 # Create a new data frame (and assign it to a variable) from the  data that meets the 
 # following criteria: contains only the species_id column and a new column called hindfoot_half 
@@ -84,9 +84,9 @@ data %>%
 # there are no NAs and all values are less than 30.
 
 hindfood_data <- data %>%
-                  mutate(hindfoot_half = hindfoot_length/2) %>% 
-                  select(species_id, hindfoot_half) %>% 
-                  filter(!is.na(hindfoot_half), hindfoot_half < 30)
+                  dplyr::mutate(hindfoot_half = hindfoot_length/2) %>% 
+                  dplyr::select(species_id, hindfoot_half) %>% 
+                  dplyr::filter(!is.na(hindfoot_half), hindfoot_half < 30)
 
 hindfood_data
   
@@ -99,14 +99,14 @@ hindfood_data
 # Before running this code, consider the data set-- What should it look like? 
 
 data %>%
-  filter(!is.na(sex)) %>% 
-  group_by(sex) %>% 
-  summarize(mean_weight = mean(weight, na.rm = TRUE))
+  dplyr::filter(!is.na(sex)) %>% 
+  dplyr::group_by(sex) %>% 
+  dplyr::summarize(mean_weight = mean(weight, na.rm = TRUE))
 
 
 sex_data <- data %>%
-              group_by(sex, species_id) %>%
-              summarize(mean_weight = mean(weight, na.rm = TRUE))
+              dplyr::group_by(sex, species_id) %>%
+              dplyr::summarize(mean_weight = mean(weight, na.rm = TRUE))
 
 # To see a table in the "Source" panel, use view() or click on the name of the data 
 # variable listed in the "Environment" tab on the right. 
@@ -117,15 +117,15 @@ sex_data <- data %>%
 # for the category specified in the brackets. 
 # If you want to know the number of rows for each sex:
 data %>% 
-   count(sex)
+  dplyr::count(sex)
 
 # How would you write the code if you wanted to know the number of rows for each sex AND species_id?
 data %>% 
-   count(sex, species_id)
+  dplyr::count(sex, species_id)
 
 # How many different occurrences are there at each plot type? 
 data %>%
-   count(plot_type)
+  dplyr::count(plot_type)
 
 # Use group_by() and summarize() to find the mean, min, and max hindfoot length for 
 # each species (using species_id). Also add the number of observations (hint: see ?n -- this is the 
@@ -134,9 +134,9 @@ data %>%
 ?n
 
 data %>%
-  filter(!is.na(hindfoot_length)) %>%
-  group_by(species_id) %>%
-  summarize(mean_hindfoot = mean(hindfoot_length),
+  dplyr::filter(!is.na(hindfoot_length)) %>%
+  dplyr::group_by(species_id) %>%
+  dplyr::summarize(mean_hindfoot = mean(hindfoot_length),
             min_hindfoot = min(hindfoot_length), 
             max_hindfoot = max(hindfoot_length),
             n = n())
@@ -148,11 +148,11 @@ data %>%
 # species_id, and weight.
   
 data %>%
-  filter(!is.na(weight)) %>%
-  group_by(year) %>%
-  filter(weight == max(weight)) %>%
-  select(year, genus, species, weight) %>%
-  arrange(year)
+  dplyr::filter(!is.na(weight)) %>%
+  dplyr::group_by(year) %>%
+  dplyr::filter(weight == max(weight)) %>%
+  dplyr::select(year, genus, species, weight) %>%
+  dplyr::arrange(year)
 
 # The arrange() function will sort the expanded data at the end based on year. You could
 # change "year" with "weight" to sort by weight instead. 
@@ -160,11 +160,11 @@ data %>%
 #---- Introduction to Graphing ----
 
 # Before starting the graphing section, we should remove all the "NA" values from our 
-# data set. Filter out all of the "NA" occurences from weight, hindfoot_length, and sex.
+# data set. Filter out all of the "NA" occurances from weight, hindfoot_length, and sex.
 # Call it a new variable. 
 
 data_complete <- data %>%
-  filter(!is.na(weight),           
+  dplyr::filter(!is.na(weight),           
          !is.na(hindfoot_length),  
          !is.na(sex))  
 
