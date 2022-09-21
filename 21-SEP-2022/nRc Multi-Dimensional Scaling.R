@@ -24,7 +24,8 @@ install.packages("ggpubr")
 install.packages("remotes")
 remotes::install_github("ZhonghuiGai/ggpca")
 
-library(devtools)
+install.packages("devtools")
+library("devtools")
 install_github("vqv/ggbiplot")
 library("ggbiplot")
 
