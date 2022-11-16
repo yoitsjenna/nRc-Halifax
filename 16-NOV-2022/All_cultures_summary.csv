@@ -1,0 +1,72 @@
+Group,Genus,Species,Cultures,Nb
+Bacillariophyta,Attheya,Attheya septentrionalis,AGSB-0003,1
+Bacillariophyta,Attheya,Attheya septentrionalis,AGSB-0004,1
+Bacillariophyta,Attheya,Attheya septentrionalis,AGSB-0005,1
+Bacillariophyta,Attheya,Attheya septentrionalis,AGSB-0032,1
+Bacillariophyta,Chaetoceros,Chaetoceros neogracile,AGSB-0094,1
+Bacillariophyta,Chaetoceros,Chaetoceros socialis,AGSB-0015,1
+Bacillariophyta,Chaetoceros,Chaetoceros socialis,AGSB-0071,1
+Bacillariophyta,Chaetoceros,Chaetoceros sp. 1,AGSB-0114,1
+Bacillariophyta,Chaetoceros,Chaetoceros sp. 2,AGSB-0186,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0044,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0045,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0052,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0082,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0085,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0087,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0123,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0137,1
+Bacillariophyta,Chaetoceros,Chaetoceros tenuissimus,AGSB-0176,1
+Bacillariophyta,Cylindrotheca,Cylindrotheca closterium,AGSB-0066,1
+Bacillariophyta,Cylindrotheca,Cylindrotheca closterium,AGSB-0133,1
+Bacillariophyta,Discostella,Discotella pseudostelligera,AGSB-0027,1
+Bacillariophyta,Extubocellulus,Extubocellulus sp.,AGSB-0031,1
+Bacillariophyta,Extubocellulus,Extubocellulus sp.,AGSB-0090,1
+Bacillariophyta,Leptocylindrus,Leptocylindrus minimum,AGSB-0065,1
+Bacillariophyta,Mediolabrus,Mediolabrus comicus,AGSB-0017,1
+Bacillariophyta,Minidiscus,Minidiscus trioculatus,AGSB-0018,1
+Bacillariophyta,Minutocellus,Minutocellus sp.,AGSB-0025,1
+Bacillariophyta,Nitzschia,Nitzschia cf. promare,AGSB-0001,1
+Bacillariophyta,Nitzschia,Nitzschia sp. 1,AGSB-0019,1
+Bacillariophyta,Nitzschia,Nitzschia sp. 2,AGSB-0041,1
+Bacillariophyta,Nitzschia,Nitzschia sp. 3,AGSB-0102,1
+Bacillariophyta,Skeletonema,Skeletonema marinoi,AGSB-0067,1
+Bacillariophyta,Skeletonema,Skeletonema marinoi,AGSB-0068,1
+Bacillariophyta,Skeletonema,Skeletonema marinoi,AGSB-0096,1
+Bacillariophyta,Synedra,Synedra minuscula,AGSB-0181,1
+Bacillariophyta,Thalassiosira,Thalassiosira concaviuscula,AGSB-0057,1
+Bacillariophyta,Thalassiosira,Thalassiosira concaviuscula,AGSB-0111,1
+Bacillariophyta,Thalassiosira,Thalassiosira concaviuscula,AGSB-0129,1
+Bacillariophyta,Thalassiosira,Thalassiosira hispida,AGSB-0034,1
+Bacillariophyta,Thalassiosira,Thalassiosira pseudonana,AGSB-0188,1
+Chlorophyta,Acutodesmus,Acutodesmus obliquus,AGSB-0011,1
+Chlorophyta,Acutodesmus,Acutodesmus obliquus,AGSB-0030,1
+Chlorophyta,Chlamydomonas,Chlamydomonas sp.,AGSB-0055,1
+Chlorophyta,Chlamydomonas,Chlamydomonas sp.,AGSB-0089,1
+Chlorophyta,Chlamydomonas,Chlamydomonas sp.,AGSB-0122,1
+Chlorophyta,Chlorella,Chlorella sp.,AGSB-0040,1
+Chlorophyta,Droopiella,Dropiella spaerckii,AGSB-0049,1
+Chlorophyta,Nannochloris,Nannochloris oculata,AGSB-0210,1
+Chlorophyta,Nannochloris,Nannochloris sp.,AGSB-0012,1
+Chlorophyta,Nannochloris,Nannochloris sp.,AGSB-0118,1
+Chlorophyta,Nannochloris,Nannochloris sp.,AGSB-0128,1
+Chlorophyta,Nannochloris,Nannochloris sp.,AGSB-0130,1
+Chlorophyta,Nephroselmis,Nephroselmis pyriformis,AGSB-0016,1
+Chlorophyta,Nephroselmis,Nephroselmis pyriformis,AGSB-0097,1
+Chlorophyta,Pyramimonas,Pyramimonas obovata,AGSB-0023,1
+Chlorophyta,Pyramimonas,Pyramimonas obovata,AGSB-0058,1
+Chlorophyta,Pyramimonas,Pyramimonas sp.,AGSB-0014,1
+Chlorophyta,Rhinomonas,Rhinomonas nottbecki,AGSB-0002,1
+Chlorophyta,Rhinomonas,Rhinomonas nottbecki,AGSB-0006,1
+Cyanobacteria,Pseudanabaena,Pseudanabaena limnetica,AGSB-0098,1
+Dinoflagellata,Heterocapsa,Heterocapsa steinii,AGSB-0061,1
+Dinoflagellata,Prorocentrum,Prorocentrum sp. 1,AGSB-0013,1
+Dinoflagellata,Prorocentrum,Prorocentrum sp. 2,AGSB-0126,1
+Dinoflagellata,Prorocentrum,Prorocentrum sp. 2,AGSB-0131,1
+Eustigmatophyceae,Nannochloropsis,Nannochloropsis granulata,AGSB-0037,1
+Haptophyta,Dicrateria,Dicrateria rotunda,AGSB-0026,1
+Haptophyta,Dicrateria,Dicrateria rotunda,AGSB-0038,1
+Haptophyta,Dicrateria,Dicrateria rotunda,AGSB-0088,1
+Haptophyta,Dicrateria,Dicrateria rotunda,AGSB-0127,1
+Haptophyta,Emiliania,Emiliania sp.,AGSB-0021,1
+Haptophyta,Emiliania,Emiliania sp.,AGSB-0022,1
