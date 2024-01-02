@@ -1,3 +1,6 @@
+
+![nRc Coding group logo (3)](https://github.com/yoitsjenna/nRc-Halifax/assets/28242489/b042508f-0104-4765-afbe-80af9c66068b)
+
 **Welcome the nRc R coding group!**
 
 To download the scripts and datasets for each session, click the green "Code" button and download the files as zip files. Please use a browser other than Internet Explorer (i.e. Firefox, Microsoft Edge, etc.).
